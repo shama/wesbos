@@ -10,7 +10,7 @@ Well, naturally, I had to create a website to celebrate this.
 
 ## Contributing
 
-You'll need to have [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/) installed.
+You'll need to have [Grunt](http://gruntjs.com/) installed.
 
 1. Clone this project's repo.
 1. Ensure the `master` branch is checked out.

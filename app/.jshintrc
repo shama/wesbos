@@ -12,7 +12,6 @@
   "eqnull": true,
   "browser": true,
   "globals": {
-    "define": false,
     "require": false
   }
 }
