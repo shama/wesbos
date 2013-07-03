@@ -102,9 +102,6 @@ module.exports = function(grunt) {
       },
     },
     watch: {
-      options: {
-        livereload: true,
-      },
       jshint: {
         files: ['<%= jshint.config.src %>', '<%= jshint.app.src %>'],
         tasks: ['jshint']
@@ -121,6 +118,10 @@ module.exports = function(grunt) {
         files: ['<%= stylus.dev.files[0].src %>'],
         tasks: ['stylus:dev'],
       },
+      livereload: {
+        options: { livereload: true, },
+        files: ['app/**/*.js', 'build/**/*', 'config/**/*'],
+      }
     },
     'gh-pages': {
       site: {
